@@ -35,3 +35,25 @@ git remote show origin
 
 #### 设置新的仓库地址
 git remote set-url origin "新的仓库地址"
+
+#### 分支
+- 查看本地分支
+git branch
+
+- 查看远程端的分支
+git branch -a
+
+- 新建分支 
+git checkout -b <创建的分支名>
+
+- 删除  branch1  分支
+git branch -d branch1
+
+- 将新分支推送到远程仓库
+git push origin <新分支名称>
+
+- 删除远程端 branch1 分支 
+git branch -r -d origin/branch1
+
+- 切换分支
+git checkout <其他分支名称>
