@@ -57,3 +57,7 @@ git branch -r -d origin/branch1
 
 - 切换分支
 git checkout <其他分支名称>
+
+### vue-route
+1、路由就是一组key-value的对应关系 2、多个路由需要经过路由器的管理。
+SPA应用——单页面应用
