@@ -1,6 +1,10 @@
 <template>
     <div class="about">
         我是about
+        <!-- <p>==this.$route===</p>
+        <div>{{ route }}</div>
+        <p>==this.$router===</p>
+        <div>{{ router }}</div> -->
     </div>
 </template>
 

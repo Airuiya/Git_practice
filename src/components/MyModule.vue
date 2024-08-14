@@ -114,7 +114,7 @@ a {
     }
 
     .my-footer {
-        padding: 0 80px;
+        // padding: 0 80px;
         background: #ccc;
         width: 100%;
         height: 60px;
