@@ -61,3 +61,15 @@ git checkout <其他分支名称>
 ### vue-route
 1、路由就是一组key-value的对应关系 2、多个路由需要经过路由器的管理。
 SPA应用——单页面应用
+
+2、如果项目用的是Vue2，那么vue-router得安装版本3,；
+   vue3对应vue-router4
+否则就会报错：Cannot read properties of undefined (reading 'install')
+TypeError: Cannot read properties of undefined (reading 'install')
+    at Vue.use (webpack-internal:///./node_modules/vue/dist/vue.runtime.esm.js:5480:27)
+
+#### 卸载vue-router 
+npm uninstall vue-router
+
+#### 安装vue-router3
+npm install --save vue-router@3
