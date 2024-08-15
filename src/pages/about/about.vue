@@ -9,7 +9,9 @@
 </template>
 
 <script>
-export default require("./about");
+// export default require("./about"); 
+import about from '../about/about'
+export default about;
 </script>
 
 <style lang="less" scoped>
