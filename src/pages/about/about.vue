@@ -1,10 +1,19 @@
 <template>
     <div class="about">
-        我是about
-        <!-- <p>==this.$route===</p>
-        <div>{{ route }}</div>
-        <p>==this.$router===</p>
-        <div>{{ router }}</div> -->
+        <P>我是about</P>
+
+        <div>
+            <!-- 使用路由实现页面不同内容的加载 -->
+            <router-link to="/about/message" active-class="active" style="margin-right: 30px;">Message</router-link>
+            <router-link to="/about/news" active-class="active">News</router-link>
+        </div>
+
+        <p>以下是内容</p>
+        <!-- 指定组件的呈现位置 -->
+        <div class="main">
+            <router-view></router-view>
+        </div>
+
     </div>
 </template>
 

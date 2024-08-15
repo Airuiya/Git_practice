@@ -73,3 +73,6 @@ npm uninstall vue-router
 
 #### 安装vue-router3
 npm install --save vue-router@3
+
+#### 嵌套路由
+嵌套(多级)路由的子路由不需要再加斜杠了；在router-link中写跳转路径时，需要把父级的路径加上
