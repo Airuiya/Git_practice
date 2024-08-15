@@ -24,7 +24,9 @@
                         <i class="el-icon-menu"></i>
                         <span>我的开发</span>
                     </template>
-                    <el-menu-item index="2-1">抽奖功能</el-menu-item>
+                    <el-menu-item index="2-1">
+                        <router-link to="/lottery" active-class="active">抽奖功能</router-link>
+                    </el-menu-item>
                     <el-menu-item index="2-2">选项2</el-menu-item>
                 </el-submenu>
                 <el-menu-item index="3" disabled>
@@ -115,7 +117,7 @@ a {
 
     .my-footer {
         // padding: 0 80px;
-        background: #ccc;
+        background: #545c64;
         width: 100%;
         height: 60px;
         overflow: hidden;
